@@ -4,11 +4,12 @@
 //
 //  Created by mbtec22 on 5/14/20.
 //  Copyright © 2020 Tecsup. All rights reserved.
-//
+// Vilchez - Curaca
 
 import UIKit
 import AVFoundation
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return sounds.count
     }
